@@ -66,7 +66,7 @@ x-enrichment:
     source: https://www.norwest.com/companies/
     note: no Kwik entry surfaced on the listing pages retrieved
   next_action: confirm the correct company domain from the VC source, or retire this lead
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
