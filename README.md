@@ -64,18 +64,69 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kwik is a stub profile surfaced from the norwest-venture-partners portfolio harvest with the single listed website https://kwik.me.
+Kwik is a stub profile surfaced from the norwest-venture-partners portfolio harvest with the single listed website https://kwik.me. The 2026-07-19 enrichment pass could not confirm any operating company, product, or developer surface behind that domain: kwik.me delegates to Sedo domain parking (ns1/ns2.sedoparking.com) and every HTTP request returns 403 from a parking placeholder, with no homepage, documentation, API, or contact information. Norwest's own public companies listing did not surface a Kwik entry on the pages retrieved. No artifacts were generated because there is nothing real to harvest, and none were fabricated. This lead should be re-checked against a corrected domain or retired.
 
-The 2026-07-19 enrichment pass could not confirm any operating company, product, or developer surface behind that domain:
+**Areas:** Company
 
-- `kwik.me` delegates to Sedo domain parking (`ns1.sedoparking.com` / `ns2.sedoparking.com`), A record `64.190.63.222`
-- Every HTTP request to `https://kwik.me/` returns **403** from a parking placeholder — no homepage, docs, API, or contact info
-- `/.well-known/security.txt`, `/.well-known/api-catalog`, and `/llms.txt` return no response
-- WHOIS: registered 2015-04-27 via GoDaddy, last updated 2024-06-27, expires 2027-04-27
-- Norwest's public companies listing did not surface a Kwik entry on the pages retrieved
+## Kwik on APIs.io
 
-No artifacts were generated, because there is nothing real to harvest — and none were fabricated.
+Everything profiled for Kwik is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kwik/](https://apis.io/providers/kwik/)** — or go straight to one of the APIs or properties below.
 
-**Next action:** confirm the correct company domain from the VC source, or retire this lead.
+## Where to find this API
 
-Backed by: norwest-venture-partners — https://kwik.me
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kwik.me)
+
+## API Evangelist rating
+
+**Kin Score 1.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kwik/](https://apis.io/providers/kwik/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kwik: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kwik/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
